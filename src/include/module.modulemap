@@ -1,0 +1,5 @@
+module cmark [system][extern_c] {
+    header "../node.h"
+    link "cmark"
+    export *
+}
